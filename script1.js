@@ -1,4 +1,4 @@
-CountDownTimer('02/08/2023 10:1 AM', 'countdown');
+CountDownTimer('02/19/2023 11:0 AM', 'countdown');
 
 
 function CountDownTimer(dt, id)
@@ -17,7 +17,7 @@ function CountDownTimer(dt, id)
         if (distance < 0) {
 
             clearInterval(timer);
-            document.getElementById(id).innerHTML = 'EXPIRED!';
+            document.getElementById(id).innerHTML = 'fresh drop';
 
             return;
         }
