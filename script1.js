@@ -1,4 +1,4 @@
-CountDownTimer('05/12/2023 01:0 AM', 'countdown');
+CountDownTimer('07/09/2023 01:0 AM', 'countdown');
 
 
 function CountDownTimer(dt, id)
